@@ -1,0 +1,60 @@
+html, body
+{
+    height: 100%;
+    margin: 0px;
+}
+
+body
+{
+    background-color:red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+
+#box
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    color: red;
+}
+
+	
+#reset {
+	background-color:red;
+	color: white;
+	margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    border: double white 3px;
+    border-radius: 30px;
+}
+	
+td {				
+	text-align:center;				
+	font-family:monospace;
+	color: red;
+	vertical-align: middle;				
+}
+#box td {
+	border:solid 1px white;
+	text-align:center;
+	font-size:40px;
+	font-family:Times New Roman;
+	color: white;
+	width: 55px;
+	height: 55px;
+}
+
+#box td:hover {
+	color:black;
+	cursor: hand;
+}
