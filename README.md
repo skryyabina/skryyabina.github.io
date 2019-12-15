@@ -1,1 +1,0 @@
-# skryyabina.github.io
